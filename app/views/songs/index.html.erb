@@ -1,0 +1,8 @@
+<h1>All Songs</h1>
+
+<% binding.pry %>
+
+<% @songs.each do |song| %>
+  <h2><%= song.title %></h2>
+  <p>Play count: <%= song.play_count %></p>
+<% end %>
